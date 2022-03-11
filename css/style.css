@@ -11,7 +11,9 @@ img {
   display: block;
   max-width: 100%;
 }
-
+body {
+  background: #53383a;
+}
 .bg-head {
   height: 483px;
 }
@@ -39,4 +41,30 @@ main {
 }
 #infos-cantores {
   display: flex;
+}
+#infos div h1 {
+  text-align: center;
+}
+#infos div p {
+  max-width: 940px;
+  margin-bottom: 32px;
+}
+footer {
+  max-width: 940px;
+  margin: 0 auto;
+}
+#info-rodape {
+  display: flex;
+  justify-content: space-between;
+}
+#info-rodape div h1 {
+  text-align: center;
+}
+#info-rodape div p {
+  max-width: 400px;
+}
+#rodape {
+  max-width: 940px;
+  display: flex;
+  justify-content: space-around;
 }
