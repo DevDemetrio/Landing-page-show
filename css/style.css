@@ -2,7 +2,41 @@ body,
 header,
 div,
 section,
+img,
 p {
   margin: 0;
   padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.bg-head {
+  height: 483px;
+}
+
+main {
+  max-width: 940px;
+  margin: 0 auto;
+}
+#info-gerais {
+  margin: 32px 0 32px 0;
+  display: flex;
+  justify-content: space-between;
+}
+#infos-basic h1 {
+  text-align: center;
+}
+#info-gerais p {
+  max-width: 432px;
+}
+
+/*informas cantores*/
+#contain-cantor {
+  max-width: 940px;
+  margin: 0 auto;
+}
+#infos-cantores {
+  display: flex;
 }
