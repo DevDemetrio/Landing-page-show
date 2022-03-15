@@ -13,11 +13,11 @@ img {
 }
 body {
   background: #53383a;
+  color: #f6eed3;
 }
 .bg-head {
   height: 483px;
 }
-
 main {
   max-width: 940px;
   margin: 0 auto;
@@ -42,6 +42,14 @@ main {
 #infos-cantores {
   display: flex;
 }
+.cantores-info {
+  background: blue;
+}
+#infos-cantores div p {
+  width: 244px;
+  height: 117px;
+  background: tomato;
+}
 #infos div h1 {
   text-align: center;
 }
@@ -50,21 +58,37 @@ main {
   margin-bottom: 32px;
 }
 footer {
-  max-width: 940px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 #info-rodape {
   display: flex;
   justify-content: space-between;
 }
+#info-1 {
+  width: 720px;
+  height: 170px;
+  text-align: center;
+  background: #c6784a;
+}
+#info-2 {
+  width: 720px;
+  height: 170px;
+  text-align: center;
+  background: #efb576;
+}
 #info-rodape div h1 {
   text-align: center;
 }
 #info-rodape div p {
   max-width: 400px;
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
 }
 #rodape {
-  max-width: 940px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 32px 0 32px 0;
   display: flex;
   justify-content: space-around;
 }
