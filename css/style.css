@@ -12,12 +12,25 @@ img {
   max-width: 100%;
 }
 body {
+  font-size: 1rem;
   background: #53383a;
   color: #f6eed3;
 }
+
+/*header*/
 .bg-head {
   height: 483px;
 }
+.button-more {
+  padding: 10px;
+  position: relative;
+  bottom: 330px;
+  left: 900px;
+  border: 2px solid #efb576;
+  color: #efb576;
+  background: none;
+}
+/*configurando informações gerais*/
 main {
   max-width: 940px;
   margin: 0 auto;
@@ -57,6 +70,8 @@ main {
   max-width: 940px;
   margin-bottom: 32px;
 }
+
+/*footer*/
 footer {
   max-width: 1400px;
   margin: 0 auto;
