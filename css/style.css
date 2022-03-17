@@ -16,6 +16,9 @@ body {
   background: #53383a;
   color: #f6eed3;
 }
+p {
+  display: block;
+}
 
 /*header*/
 .bg-head {
@@ -49,19 +52,23 @@ main {
 
 /*informas cantores*/
 #contain-cantor {
-  max-width: 940px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 #infos-cantores {
+  max-width: 940px;
   display: flex;
 }
 .cantores-info {
-  background: blue;
+  background: #f6eed3;
+  color: #53383a;
+  width: 285px;
+  height: 306px;
 }
+
 #infos-cantores div p {
-  width: 244px;
-  height: 117px;
-  background: tomato;
+  padding: 10px;
+  margin: 32px 3px 0 0;
 }
 #infos div h1 {
   text-align: center;
