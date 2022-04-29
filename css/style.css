@@ -12,20 +12,25 @@ img {
   max-width: 100%;
 }
 body {
-  font-size: 1rem;
+  font-size: 1.6rem;
   background: #53383a;
   color: #f6eed3;
 }
 p {
   display: block;
 }
+/*Configurações gerais*/
 
+html {
+  /*a cada 1rem será considerada 10px*/
+  font-size: 62.5%;
+}
 /*header*/
 .bg-head {
   height: 483px;
 }
-.button-more {
-  padding: 10px;
+.bg-head__button-more {
+  padding: 1rem;
   position: relative;
   bottom: 330px;
   left: 900px;
@@ -35,47 +40,54 @@ p {
 }
 /*configurando informações gerais*/
 main {
+  width: auto;
   max-width: 940px;
   margin: 0 auto;
 }
-#info-gerais {
-  margin: 32px 0 32px 0;
+.infos-basic__info-gerais {
+  margin: 8vh 0 8vh 0;
   display: flex;
   justify-content: space-between;
 }
-#infos-basic h1 {
+.infos-basic__infos-basic div h1 {
+  font-size: 3rem;
   text-align: center;
 }
-#info-gerais p {
+.infos-basic__info-gerais div p {
   max-width: 432px;
+  font-size: 1.6rem;
 }
 
 /*informas cantores*/
-#contain-cantor {
+.contain-cantor {
   max-width: 1400px;
   margin: 0 auto;
 }
-#infos-cantores {
+.contain__infos-cantores {
+  width: auto;
   max-width: 940px;
   display: flex;
 }
-.cantores-info {
+.contaion__cantores-info {
   background: #f6eed3;
   color: #53383a;
   width: 285px;
   height: 306px;
 }
 
-#infos-cantores div p {
-  padding: 10px;
+.contain__infos-cantores div p {
+  padding: 1rem;
   margin: 32px 3px 0 0;
 }
 #infos div h1 {
+  font-size: 3rem;
   text-align: center;
 }
 #infos div p {
+  width: auto;
   max-width: 940px;
   margin-bottom: 32px;
+  font-size: 1.6rem;
 }
 
 /*footer*/
@@ -89,28 +101,43 @@ footer {
 }
 #info-1 {
   width: 720px;
-  height: 170px;
-  text-align: center;
   background: #c6784a;
+}
+#info-1 p {
+  height: auto;
+  font-size: 1.6rem;
+  text-align: center;
 }
 #info-2 {
   width: 720px;
-  height: 170px;
-  text-align: center;
   background: #efb576;
 }
+#info-2 p {
+  font-size: 1.6rem;
+  height: auto;
+  text-align: center;
+}
 #info-rodape div h1 {
+  font-size: 3rem;
   text-align: center;
 }
 #info-rodape div p {
   max-width: 400px;
   margin: 0 auto;
-  padding: 0 20px 0 20px;
+  padding: 0 2rem 0 2rem;
+  font-size: 1.6rem;
 }
 #rodape {
+  width: auto;
   max-width: 1400px;
   margin: 0 auto;
-  padding: 32px 0 32px 0;
+  padding: 3.2rem 0 3.2rem 0;
   display: flex;
   justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
 }
