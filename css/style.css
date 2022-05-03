@@ -49,7 +49,7 @@ main {
   display: flex;
   justify-content: space-between;
 }
-.infos-basic__infos-basic div h1 {
+.infos-basic div h1 {
   font-size: 3rem;
   text-align: center;
 }
