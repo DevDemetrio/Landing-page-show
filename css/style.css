@@ -1,12 +1,31 @@
+body {
+  background-color: #53383a;
+}
 /*header*/
 .top img {
-  width: 90%;
+  width: 100%;
   height: auto;
   margin-bottom: 1rem;
 }
 
+/*Historia banda*/
+.historia__banda {
+  padding: 0 2.5rem 0 2.5rem;
+}
 .historia__banda h1 {
+  margin-bottom: 1rem;
   text-align: center;
 }
 
 /*cantores*/
+
+.foto {
+  margin: 1rem auto 0 auto;
+}
+.cantor__container {
+  width: 236px;
+  height: 104px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #f6eed3;
+}
