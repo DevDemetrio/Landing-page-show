@@ -9,12 +9,23 @@ body {
 }
 
 /*Historia banda*/
+
 .historia__banda {
   padding: 0 2.5rem 0 2.5rem;
 }
 .historia__banda h1 {
   margin-bottom: 1rem;
+  font-weight: bold;
   text-align: center;
+}
+.historia__banda__texto {
+  font-size: 1rem;
+  line-height: 1.3rem;
+  color: #f6eed3;
+}
+.historia__banda h1 {
+  font-size: 1.2rem;
+  color: #f6eed3;
 }
 
 /*cantores*/
@@ -22,10 +33,39 @@ body {
 .foto {
   margin: 1rem auto 0 auto;
 }
+.cantor__fotos {
+  margin-bottom: 1.5rem;
+}
 .cantor__container {
   width: 236px;
   height: 104px;
   margin: 0 auto;
+  padding: 1rem;
   text-align: center;
+  line-height: 1.1rem;
   background-color: #f6eed3;
+}
+
+/*informação*/
+.informacao {
+  color: #f6eed3;
+}
+.informacao__titulo {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+.informacao__sobre {
+  padding: 2rem 2.5rem 2rem 2.5rem;
+  background-color: #c6784a;
+  height: 20.625rem;
+  font-size: 1.2rem;
+  line-height: 1.3;
+}
+.informacao__company {
+  padding: 2rem 2.5rem 2rem 2.5rem;
+  background-color: #efb576;
+  height: 20.625rem;
+  font-size: 1.2rem;
+  line-height: 1.3;
 }
