@@ -61,7 +61,16 @@ body {
   font-size: 1.2rem;
   color: #f6eed3;
 }
-
+.historia__banda__descricao {
+  margin: 0 auto 3rem auto;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  color: #f6eed3;
+}
+.historia__banda__descricao h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
 /*cantores*/
 
 .foto {
@@ -98,7 +107,7 @@ body {
   }
   .cantor {
     max-width: 1200px;
-    margin: 0 auto 16rem auto;
+    margin: 0 auto 5rem auto;
   }
   .cantor__fotos {
     display: flex;
