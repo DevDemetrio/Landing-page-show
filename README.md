@@ -11,6 +11,9 @@ Projeto feito com as seguintes tecnologias
 O layout foi feito no Figma, e pode ser acessada no link: 
 https://www.figma.com/file/EyYTBhE0GRLHGFtUHdcLee/2-3-espaco-pratica?node-id=0-1&t=LJJHgwCF6btvpJIr-0
 
+Ela pode ser acessada no link:
+https://devdemetrio.com/projetos/Landing-page-show/index.html
+
 
 
 Aqui está a versão mobile da página:
